@@ -48,57 +48,41 @@
         </div>
         <br />
         <div class="page-content-guide">
-          Please enter the three lengths of your triangle.
+          Enter two numbers to multiply:
         </div>
         <form>
-          <label class="page-content">Side a: </label>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-a"
+              id="first-number"
             />
-            <label class="mdl-textfield__label" for="side-a"
-              >Enter without the unit</label
+            <label class="mdl-textfield__label" for="first-number"
+              >Your first number here...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          <br />
-          <label class="page-content">Side b: </label>
+          <label class="page-content">×</label>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-b"
+              id="second-number"
             />
-            <label class="mdl-textfield__label" for="side-b"
-              >Enter without the unit</label
-            >
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <label class="page-content">Side c: </label>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="side-c"
-            />
-            <label class="mdl-textfield__label" for="side-c"
-              >Enter without the unit</label
+            <label class="mdl-textfield__label" for="second-number"
+              >Your second number here...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="checkTypeOfTriangle ()"
+            onclick="doMultiplication ()"
             type="button"
           >
-            Check
+            Calculate
           </button>
         </form>
         <br />

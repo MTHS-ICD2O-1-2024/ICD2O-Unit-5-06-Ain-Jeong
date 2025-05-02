@@ -28,7 +28,7 @@
   color: rgb(61 61 61);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 15pt;
+  padding-bottom: 25pt;
 }
 
 .page-content {
@@ -37,7 +37,7 @@
   font-size: 1.7rem;
   padding-left: 10pt;
   padding-top: 10pt;
-  padding-bottom: 20pt;
+  padding-bottom: 25pt;
 }
 
 .page-content-answer {

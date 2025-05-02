@@ -5,10 +5,10 @@
 // This file contains the JS functions for index.html
 
 /**
-* This function check the type of triangle
+* This function calculate, doing multiplication
  */
 // eslint-disable-next-line no-unused-vars
-function checkTypeOfTriangle () {
+function doMultiplication () {
   // input
   const sideA = parseFloat(document.getElementById('side-a').value)
   const sideB = parseFloat(document.getElementById('side-b').value)
