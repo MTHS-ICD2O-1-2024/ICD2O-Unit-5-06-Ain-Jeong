@@ -12,17 +12,17 @@ function doMultiplication () {
   // input
   let counter = 0
   let answer = 0
-  const firstNumber = parseFloat(document.getElementById("first-number").value)
+  const firstNumber = parseFloat(document.getElementById('first-number').value)
   const secondNumber = parseFloat(
-    document.getElementById("second-number").value
+    document.getElementById('second-number').value
   )
   // process
   while (counter < secondNumber) {
     counter = counter + 1
     answer = answer + firstNumber
   }
-  {
-    // output
-    document.getElementById("answer").innerHTML = 'Your answer is: ' + answer
-  }
+{
+  // output
+  document.getElementById('answer').innerHTML = 'Your answer is: ' + answer
+}
 }
