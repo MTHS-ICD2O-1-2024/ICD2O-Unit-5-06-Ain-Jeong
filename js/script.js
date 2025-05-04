@@ -16,6 +16,7 @@ function doMultiplication () {
   const secondNumber = parseFloat(
     document.getElementById('second-number').value
   )
+
   // process
   while (counter < secondNumber) {
     counter = counter + 1
