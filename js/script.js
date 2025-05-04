@@ -22,8 +22,6 @@ function doMultiplication () {
     counter = counter + 1
     answer = answer + firstNumber
   }
-{
   // output
-  document.getElementById('answer').innerHTML = 'Your answer is: ' + answer
-}
+    document.getElementById('answer').innerHTML = 'Your answer is: ' + answer
 }
